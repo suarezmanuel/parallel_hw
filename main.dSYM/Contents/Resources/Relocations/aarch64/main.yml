@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/manuel/Downloads/pageRank/main'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100002BD4, symSize: 0x60 }
+  - { offset: 0xEF, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100002BD4, symSize: 0x60 }
+  - { offset: 0x125, size: 0x8, addend: 0x0, symName: _createGraph, symObjAddr: 0x60, symBinAddr: 0x100002C34, symSize: 0x18C }
+  - { offset: 0x193, size: 0x8, addend: 0x0, symName: _addEdge, symObjAddr: 0x1EC, symBinAddr: 0x100002DC0, symSize: 0xC4 }
+  - { offset: 0x215, size: 0x8, addend: 0x0, symName: _initializeRanks, symObjAddr: 0x0, symBinAddr: 0x100002E84, symSize: 0x6C }
+  - { offset: 0x36B, size: 0x8, addend: 0x0, symName: _initializeRanks, symObjAddr: 0x0, symBinAddr: 0x100002E84, symSize: 0x6C }
+  - { offset: 0x3B9, size: 0x8, addend: 0x0, symName: _PageRank, symObjAddr: 0x6C, symBinAddr: 0x100002EF0, symSize: 0x354 }
+  - { offset: 0x53C, size: 0x8, addend: 0x0, symName: _GoodPageRank, symObjAddr: 0x3C0, symBinAddr: 0x100003244, symSize: 0x250 }
+  - { offset: 0x64E, size: 0x8, addend: 0x0, symName: _help, symObjAddr: 0x610, symBinAddr: 0x100003494, symSize: 0x120 }
+  - { offset: 0x70C, size: 0x8, addend: 0x0, symName: _help2, symObjAddr: 0x730, symBinAddr: 0x1000035B4, symSize: 0x134 }
+  - { offset: 0x788, size: 0x8, addend: 0x0, symName: _ParallelPageRank, symObjAddr: 0x864, symBinAddr: 0x1000036E8, symSize: 0x4D4 }
+  - { offset: 0x93D, size: 0x8, addend: 0x0, symName: _generateRandomGraph, symObjAddr: 0xD38, symBinAddr: 0x100003BBC, symSize: 0xB8 }
+  - { offset: 0x9C3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xDF0, symBinAddr: 0x100003C74, symSize: 0x254 }
+...

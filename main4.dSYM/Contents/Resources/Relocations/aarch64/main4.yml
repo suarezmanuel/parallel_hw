@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/manuel/Downloads/pageRank/main4'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x1000026CC, symSize: 0x60 }
+  - { offset: 0xEF, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x1000026CC, symSize: 0x60 }
+  - { offset: 0x125, size: 0x8, addend: 0x0, symName: _createGraph, symObjAddr: 0x60, symBinAddr: 0x10000272C, symSize: 0x18C }
+  - { offset: 0x193, size: 0x8, addend: 0x0, symName: _addEdge, symObjAddr: 0x1EC, symBinAddr: 0x1000028B8, symSize: 0xC4 }
+  - { offset: 0x215, size: 0x8, addend: 0x0, symName: _initializeRanks, symObjAddr: 0x0, symBinAddr: 0x10000297C, symSize: 0x4C }
+  - { offset: 0x266, size: 0x8, addend: 0x0, symName: _initializeRanks, symObjAddr: 0x0, symBinAddr: 0x10000297C, symSize: 0x4C }
+  - { offset: 0x2A6, size: 0x8, addend: 0x0, symName: _printRanks, symObjAddr: 0x4C, symBinAddr: 0x1000029C8, symSize: 0x78 }
+  - { offset: 0x2E6, size: 0x8, addend: 0x0, symName: _initializeRanksStruct, symObjAddr: 0xC4, symBinAddr: 0x100002A40, symSize: 0x68 }
+  - { offset: 0x326, size: 0x8, addend: 0x0, symName: _printRanksStruct, symObjAddr: 0x12C, symBinAddr: 0x100002AA8, symSize: 0xB8 }
+  - { offset: 0x390, size: 0x8, addend: 0x0, symName: _PageRank, symObjAddr: 0x1E4, symBinAddr: 0x100002B60, symSize: 0x318 }
+  - { offset: 0x4F6, size: 0x8, addend: 0x0, symName: _GoodPageRank, symObjAddr: 0x4FC, symBinAddr: 0x100002E78, symSize: 0x1F0 }
+  - { offset: 0x5DE, size: 0x8, addend: 0x0, symName: _ParallelPageRank, symObjAddr: 0x6EC, symBinAddr: 0x100003068, symSize: 0x1F0 }
+  - { offset: 0x6C6, size: 0x8, addend: 0x0, symName: _benchmark, symObjAddr: 0x8DC, symBinAddr: 0x100003258, symSize: 0xC0 }
+  - { offset: 0x73E, size: 0x8, addend: 0x0, symName: _benchmark2, symObjAddr: 0x99C, symBinAddr: 0x100003318, symSize: 0xB4 }
+  - { offset: 0x7A8, size: 0x8, addend: 0x0, symName: _compare, symObjAddr: 0xA50, symBinAddr: 0x1000033CC, symSize: 0x128 }
+  - { offset: 0x84A, size: 0x8, addend: 0x0, symName: _compare2, symObjAddr: 0xB78, symBinAddr: 0x1000034F4, symSize: 0xAC }
+  - { offset: 0x8D0, size: 0x8, addend: 0x0, symName: _generateRandomGraph, symObjAddr: 0xC24, symBinAddr: 0x1000035A0, symSize: 0xE8 }
+  - { offset: 0x93A, size: 0x8, addend: 0x0, symName: _t1, symObjAddr: 0xD0C, symBinAddr: 0x100003688, symSize: 0xEC }
+  - { offset: 0x9B8, size: 0x8, addend: 0x0, symName: _t2, symObjAddr: 0xDF8, symBinAddr: 0x100003774, symSize: 0x1B0 }
+  - { offset: 0xA49, size: 0x8, addend: 0x0, symName: _worker_t3, symObjAddr: 0xFA8, symBinAddr: 0x100003924, symSize: 0x1C0 }
+  - { offset: 0xB03, size: 0x8, addend: 0x0, symName: _t3, symObjAddr: 0x1168, symBinAddr: 0x100003AE4, symSize: 0x110 }
+  - { offset: 0xBC3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1278, symBinAddr: 0x100003BF4, symSize: 0x238 }
+...
